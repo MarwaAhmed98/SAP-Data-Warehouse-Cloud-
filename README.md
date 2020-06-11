@@ -36,4 +36,4 @@ SAP Data Warehouse Cloud 30-day free trial account
 
 
 
-Connect with me via LinkedIn[a here](https://www.linkedin.com/in/marwa-ahmed98/) 
+Connect with me via LinkedIn [here](https://www.linkedin.com/in/marwa-ahmed98/) 
