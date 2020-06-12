@@ -29,7 +29,7 @@ Entity Relationship Modeling is a database modeling technique that aims at estab
 
 ***
 
-![alt text](https://ibb.co/pQ2MgNP"><img src="https://i.ibb.co/2SqCwR6/Capture.jpg)
+![alt text](https://i.ibb.co/2SqCwR6/Capture.jpg)
 
 
 
