@@ -54,7 +54,10 @@ Now save the dataset and click on the toggle bar to allow the dataset for consum
 
 
 ### Module 4: Build Business Story
-Navigate to the *Story Builder*, Go to *New Story*. Click on add data and choose the dataset saved from the pervious step. The story can be built in several ways according to the business questions at hand. A list of possible questions answered by the Story in this repo are the following:
+Navigate to the *Story Builder*, Go to *New Story*. Click on add data and choose the dataset saved from the pervious step. The story can be built in several ways according to the business questions at hand. Two important features to highlight. One, the filter feature from input controls can apply filter by dimension across all charts. Two, the *linked Analysis* can link all the charts together so in the case of hovering over one product_id, you get to see its related information only. 
+
+
+A list of possible questions answered by the Story in this repo are the following:
 
 1. What total sales are by Region?
 2. Which products are most selling, in which countries and regions?
@@ -65,14 +68,4 @@ Navigate to the *Story Builder*, Go to *New Story*. Click on add data and choose
 
 
 
-
-
-
-
-
-
-
-
-
-
-Connect with me via LinkedIn [here](https://www.linkedin.com/in/marwa-ahmed98/) 
+I hope you find this helpful for you to start using SAP data warehouse right away. Stay tuned for more of these guides on other cloud providers. Meanwhile, connect with me via LinkedIn [here](https://www.linkedin.com/in/marwa-ahmed98/) 
