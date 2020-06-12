@@ -30,6 +30,7 @@ Entity Relationship Modeling is a database modeling technique that aims at estab
 ***
 
 ![alt text](https://i.ibb.co/2SqCwR6/Capture.jpg)
+This should be the starting page on SAP Data Warehouse Cloud. In the following modules you'll be interacting with the navigation bar on the left. 
 
 
 
