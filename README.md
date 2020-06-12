@@ -4,7 +4,7 @@ A repository to get hands-on experience with SAP DWC and build your first Data W
 ## Prerequisites:
 SAP Data Warehouse Cloud 30-day free trial account
 
-This guide is divided into six modules, by the end of the six modules you should be able to do the following:
+This guide is divided into four modules, by the end of the six modules you should be able to do the following:
 * Implement data governance measures by assigning users to roles and define access for each user respectively
 * Add more users in bulk as you scale your data warehouse across the organization
 * Create spaces and assign users to spaces
@@ -20,6 +20,9 @@ This guide is divided into six modules, by the end of the six modules you should
 
 
 spaces: these are virtual workspaces for an individual or a group of users for data modeling, data integration, and story dashboard building. Think of them as your isolated business functions such as Marketing, HR, Finance, Business Development, etc. 
+
+
+Semantic Layer: this is where you give the data business meaning according the audience, organizational best practices and naming conventions. 
 
 ### Module 1: Data Governance Measures and Spaces
 Navigate to *Security* and click on Users. You should have a table to add users and their respectives roles. Note that only one **system owner** can be assigned to each data warehouse. The license is a feature to manage the number of concurrent users logging into the data warehouse. You can adjust it if needed.
@@ -38,6 +41,16 @@ For local file uploads, navigate to *Data Builder* and create a table. You can u
 ### Module 3: Build ER Model
 Navigate back to the *Data Builder*, Go to *E/R models*. Click on New Entity Relationship Model to create one. On the left, there will find a list of all the tables uplaoded in the previous step under the *Repositories* tab .<br/>
 Drag and drop the tables to connect Sales_Orders dataset to Sales_Order_Items and create the asscoiation based on the SalesOrderID. Repeat the same process for Sales_Orders, Business_Partners dataset and Addresses dataset and create the association based on the common keys, PartnerID and AddressID, respectively. Click on save and deploy to make the model available for use in the next step.
+
+
+
+### Module 3: Build Data Model
+Navigate back to the *Data Builder*, Go to *Views*. Click on New Graphic View to create one. On the left, there will find a list of all the tables uplaoded in step 2 under the *Repositories* tab .<br/>
+Drag and drop the tables in the following order. Add Sales_Order_Items first and then add Sales_Order on top of it to INNER JOIN the two tables. Next, add Business_Parterns table and then JOIN it with Addresses table. At the end of the data model, you should have a View dataset that has the cumlative Inner Join of all tables. <br/>
+Click on the View and rename it as desired. Change the *Type* from relational to analytical dataset. This will make it easier to analyze the data and draw visualizations in the following step. There are two categories now, *Dimensions* and "Measures*. Change [Quantity, GROSSAMOUNT_ITEMS, GROSSAMOUNT_ORDERS] to measures and leave all the dimensions as is.
+Next to Attributes, click on the ✏ icon to add semantic layer to the data. Change the *Semantic Type* as seen fit. <br/>
+Now save the dataset and click on the toggle bar to allow the dataset for consumption then deploy.
+
 
 
 
