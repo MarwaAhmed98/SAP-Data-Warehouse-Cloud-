@@ -53,6 +53,18 @@ Now save the dataset and click on the toggle bar to allow the dataset for consum
 
 
 
+### Module 4: Build Business Story
+Navigate to the *Story Builder*, Go to *New Story*. Click on add data and choose the dataset saved from the pervious step. The story can be built in several ways according to the business questions at hand. A list of possible questions answered by the Story in this repo are the following:
+
+1. What total sales are by Region?
+2. Which products are most selling, in which countries and regions?
+3. Should we focus more on the low cost/high volume bikes or high cost/low volume bikes?
+4. Can we break down sales by clients? 
+5. Which clients are purchasing which of the top selling products?
+
+
+
+
 
 
 
