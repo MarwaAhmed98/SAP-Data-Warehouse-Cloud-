@@ -1,5 +1,5 @@
 # SAP-Data-Warehouse-Cloud-
-A repository to get hands-on experience with SAP DWC and build your first Data Warehouse
+A repository to get hands-on experience with SAP DWC and build your first Data Warehouse. There are a list of csv files in this repository which you can use to build the data warehouse.
 
 ## Prerequisites:
 SAP Data Warehouse Cloud 30-day free trial account
