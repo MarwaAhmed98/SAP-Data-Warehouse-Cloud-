@@ -19,7 +19,7 @@ This guide is divided into six modules, by the end of the six modules you should
 ## Important keywords to define:
 
 ### Module 1: Data Governance Measures and Spaces
-
+Navigate to Security and click on Users. You should have a table to add users and their respectives roles. Note that only one **system owner** can be assigned to each data warehouse. The license is a feature to manage the number of concurrent users logging into the data warehouse. You can adjust it if needed.
 
 
 
