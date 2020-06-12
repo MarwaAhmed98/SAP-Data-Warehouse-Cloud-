@@ -16,13 +16,21 @@ This guide is divided into four modules, by the end of the six modules you shoul
 * Create interactive data stories
 
 
-## Important keywords to define:
+## Important keywords:
 
 
-spaces: these are virtual workspaces for an individual or a group of users for data modeling, data integration, and story dashboard building. Think of them as your isolated business functions such as Marketing, HR, Finance, Business Development, etc. 
+Spaces: these are virtual workspaces for an individual or a group of users for data modeling, data integration, and story dashboard building. Think of them as your isolated business functions such as Marketing, HR, Finance, Business Development, etc. 
 
 
 Semantic Layer: this is where you give the data business meaning according the audience, organizational best practices and naming conventions. 
+
+
+Entity Relationship Modeling is a database modeling technique that aims at establishing a diagram or visual representation of a system’s data.There are three basic elements in an ER Diagram: entity, attribute, relationship.
+
+***
+
+![alt text](https://ibb.co/pQ2MgNP)
+
 
 ### Module 1: Data Governance Measures and Spaces
 Navigate to *Security* and click on Users. You should have a table to add users and their respectives roles. Note that only one **system owner** can be assigned to each data warehouse. The license is a feature to manage the number of concurrent users logging into the data warehouse. You can adjust it if needed.
